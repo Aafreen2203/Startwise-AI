@@ -489,4 +489,4 @@ curl -X POST "http://localhost:8000/api/v1/collections/{collection_name}/query" 
 
 ---
 
-**Built with ❤️ using React, TypeScript, Tailwind CSS, and Flowise AI**
+**Built using React, TypeScript, Tailwind CSS, and Flowise AI**
