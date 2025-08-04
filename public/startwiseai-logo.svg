@@ -1,0 +1,41 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brain-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sparkle-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="24" cy="24" r="22" fill="url(#brain-gradient)" filter="url(#glow)" opacity="0.9"/>
+  
+  <!-- Brain Icon -->
+  <path d="M15 18c-1.1 0-2 .9-2 2v6c0 3.3 2.7 6 6 6h6c3.3 0 6-2.7 6-6v-6c0-1.1-.9-2-2-2h-1c-1.1 0-2 .9-2 2v2h-2v-2c0-1.1-.9-2-2-2h-1zm3 8h-2v-2h2v2zm6 0h-2v-2h2v2z" fill="white" opacity="0.95"/>
+  <path d="M16 20v2h2v-2h-2zm8 0v2h2v-2h-2z" fill="white" opacity="0.8"/>
+  
+  <!-- Neural Network Lines -->
+  <line x1="18" y1="22" x2="22" y2="26" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  <line x1="26" y1="22" x2="30" y2="26" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  <line x1="22" y1="26" x2="26" y2="26" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Sparkle Icon (top-right) -->
+  <circle cx="36" cy="12" r="6" fill="url(#sparkle-gradient)" opacity="0.9"/>
+  <path d="M36 9l1.5 3 3 1.5-3 1.5L36 18l-1.5-3-3-1.5 3-1.5L36 9z" fill="white"/>
+  
+  <!-- Data Points -->
+  <circle cx="12" cy="36" r="2" fill="#06B6D4" opacity="0.7"/>
+  <circle cx="36" cy="36" r="2" fill="#8B5CF6" opacity="0.7"/>
+  <circle cx="24" cy="8" r="1.5" fill="white" opacity="0.5"/>
+</svg>

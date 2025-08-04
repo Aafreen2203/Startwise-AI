@@ -1,0 +1,24 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#6366f1"/>
+  
+  <!-- Icon design - representing AI/Analytics -->
+  <g transform="translate(4, 4)">
+    <!-- Neural network nodes -->
+    <circle cx="6" cy="6" r="2" fill="#ffffff"/>
+    <circle cx="18" cy="6" r="2" fill="#ffffff"/>
+    <circle cx="6" cy="18" r="2" fill="#ffffff"/>
+    <circle cx="18" cy="18" r="2" fill="#ffffff"/>
+    <circle cx="12" cy="12" r="2.5" fill="#ffffff"/>
+    
+    <!-- Connections -->
+    <line x1="6" y1="6" x2="12" y2="12" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+    <line x1="18" y1="6" x2="12" y2="12" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+    <line x1="6" y1="18" x2="12" y2="12" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+    <line x1="18" y1="18" x2="12" y2="12" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+    
+    <!-- Data flow indicator -->
+    <path d="M2 12 L6 10 L6 14 Z" fill="#e2e8f0"/>
+    <path d="M22 12 L18 10 L18 14 Z" fill="#e2e8f0"/>
+  </g>
+</svg>

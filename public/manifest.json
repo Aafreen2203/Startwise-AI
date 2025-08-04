@@ -1,0 +1,32 @@
+{
+  "name": "StartwiseAI - AI-Powered Startup Evaluation Platform",
+  "short_name": "StartwiseAI",
+  "description": "Transform your startup ideas into investment-ready pitches with AI-powered evaluation including market analysis, tech recommendations, and competitive insights.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["business", "productivity", "finance"],
+  "screenshots": [
+    {
+      "src": "/og-image.svg",
+      "sizes": "1200x630",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ]
+}
