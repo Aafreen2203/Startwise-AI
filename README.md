@@ -336,6 +336,46 @@ const FLOWISE_API_URL =
 5. **Improvements**: Enhancement suggestions
 6. **Success Metrics**: Market statistics and probability
 
+---
+
+## 📺 Demo Video
+
+You can watch a full walkthrough of StartwiseAI in action below:
+
+[![StartwiseAI Demo Video](https://github.com/user-attachments/assets/2f3042bc-7741-46da-8f6c-a264c43ebdde)  
+📽️ *Click to watch on YouTube*
+
+
+
+---
+
+## 📱 Mobile View Screenshots
+
+Here’s how **StartwiseAI** looks on mobile devices:
+
+---
+
+### 🚀 *Landing Page*
+
+<p align="left">
+  <img width="180" src="https://github.com/user-attachments/assets/19aff9d2-4363-46d6-bead-45cf7bd725bd" />
+  <img width="180" src="https://github.com/user-attachments/assets/2b914215-950e-401d-bf9d-631e219623d2" />
+</p>
+
+---
+
+### ✍️ *Idea Submission & Evaluation Results*
+
+<p align="left">
+  <img width="180" src="https://github.com/user-attachments/assets/9dfab1a6-ef43-4021-be66-e1cc23a5b659" />
+  <img width="180" src="https://github.com/user-attachments/assets/3efcde23-a6b4-4318-85ba-ec37757a3d14" />
+  <img width="180" src="https://github.com/user-attachments/assets/a23ccf19-692c-41dc-b116-2445d6874e46" />
+  <img width="180" src="https://github.com/user-attachments/assets/feb6a1f7-0511-442d-ab6e-8d3f4ee46618" />
+  <img width="180" src="https://github.com/user-attachments/assets/b2f2c4b6-b079-4435-9c30-90b1e479d85f" />
+</p>
+
+> All views are fully responsive and optimized for mobile use.
+
 ## 📁 Project Structure
 
 ```
