@@ -258,12 +258,6 @@ Similarity Threshold: 0.7
 Max Documents Retrieved: 10
 ```
 
-#### Document Processing Chain
-
-```mermaid
-Document Upload → Text Splitting → Embedding Generation → Vector Storage → Similarity Search → Context Retrieval → LLM Processing → Formatted Response
-```
-
 #### Agent Workflow
 
 1. **Document Ingestion**: Processes uploaded files and web content
